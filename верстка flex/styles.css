@@ -1,0 +1,164 @@
+body {
+    max-width: 1200px;
+    align-content: center;
+    margin: auto;
+}
+
+main {
+    display: flex;
+    width: 100%;
+    min-height: 700px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-basis: 90px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+    min-height: 90px;
+}
+
+#logo {
+    width: 10%;
+    min-height: 90px;
+    background-color: gray;
+    margin-left: 10px;
+}
+
+.contacts {
+    width: 30%;
+    min-height: 90%;
+    background-color: gray;
+    margin-left: 15px;
+}
+
+.phoneNumbers {
+    width: 57%;
+    min-height: 90px;
+    background-color: gray;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactNumbers {
+    width: 57%;
+    min-height: 158px;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.phone {
+    width: 100%;
+    min-height: 50px;
+    margin-top: 20px;
+    background-color: darkgray;
+}
+
+.contentLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 180px;
+    width: 300px;
+}
+
+.contentRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    margin-left: 10px;
+}
+
+.contentRightTop {
+    display: flex;
+    flex-direction: column;
+    min-height: 30%;
+    background-color: darkgray;
+}
+
+.contentRightMidle {
+    display: flex;
+    height: 40%;
+    margin-top: 10px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    display: flex;
+    background-color: darkgray;
+    width: 100px;
+    height: 120px;
+    margin-left: 10px;
+}
+
+.contentRightBottom {
+    display: flex;
+    min-height: 30%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.contentRightBottom1 {
+    min-height: 30%;
+    margin-left: 10px;
+    background-color: darkgray;
+    width: 47%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.top {
+    width: 90%;
+    min-height: 45%;
+    background-color: gray;
+    margin-left: 10px;
+    padding-left: 5px;
+    font-size: 12px;
+}
+
+.bottom {
+    width: 90%;
+    min-height: 30%;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding-left: 5px;
+}
+
+
+.list {
+    min-height: 90px;
+    margin-left: 10px;
+    min-width: 30%;
+    font-size: 16px;
+}
+
+.listFooter {
+    height: 100%;
+    margin-left: 10px;
+    background-color: gray;
+    min-width: 30%;
+    font-size: 14px;
+    display: flex;
+}
+
+.list2 {
+    min-width: 47%;
+    line-height: 0.7em;
+    padding-left: 15px;
+    min-height: 100%;
+}
+
+ul {
+    list-style-type: square;
+}

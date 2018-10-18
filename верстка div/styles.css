@@ -1,0 +1,151 @@
+html, body {
+    margin: auto;
+    display: table;
+    width: 1008px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+header {
+    height: 100px;
+    width: 1008px;
+}
+
+footer {
+    height: 170px;
+    width: 1008px;
+    display: table-row;
+}
+
+main {
+    width: 1008px;
+    min-height: 720px;
+    margin-top: 15px;
+}
+
+.leftContent {
+    width: 150px;
+    float: left;
+    min-height: 100%;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.fourth {
+    width: 130px;
+    min-height: 40%;
+    background-color: gray;
+    padding-left: 10px;
+    font-size: 14px;
+}
+
+.seventh {
+    width: 130px;
+    min-height: 15%;
+    background-color: gray;
+    margin-top: 250px;
+    position: absolute;
+}
+
+.right {
+    width: 810px;
+    float: left;
+    min-height: 700px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.first {
+    height: 90px;
+    width: 100px;
+    background-color: gray;
+    margin-left: 10px;
+    margin-top: 6px;
+    float: left;
+}
+
+.second {
+    height: 90px;
+    width: 300px;
+    background-color: gray;
+    margin-left: 130px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.third {
+    height: 90px;
+    width: 550px;
+    background-color: gray;
+    margin-left: 450px;
+    margin-top: 6px;
+    position: absolute;
+}
+
+.fifth {
+    background-color: gray;
+    min-height: 190px;
+    width: 780px;
+    margin-top: 14px;
+    margin-left: 15px;
+    padding-left: 15px;
+}
+
+.foto {
+    height: 100px;
+    width: 98px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 15px;
+    float: left;
+}
+
+.eighth {
+    height: 185px;
+    width: 790px;
+    margin-top: 40px;
+}
+
+.xz {
+    min-height: 175px;
+    width: 380px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    padding-left: 5px;
+}
+
+.tenth {
+    min-height: 150px;
+    width: 280px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+    padding-left: 15px;
+}
+
+.eleven {
+    height: 65px;
+    width: 280px;
+    background-color: gray;
+    margin-top: 10px;
+    margin-left: 20px;
+    float: left;
+}
+
+.list {
+    margin-left: 10px;
+}
+
+ul {
+    padding-left: 10px;
+}
+
+.footerList {
+    line-height: 0.7em;
+    padding-left: 15px;
+    float: left;
+}
