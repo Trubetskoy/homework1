@@ -10,12 +10,20 @@ html, body {
 header {
     height: 100px;
     width: 1008px;
+    border-bottom: black;
+    padding-bottom: 4px;
+    border-width: 0px 0px 3px 0px;
+    border-style: outset;
 }
 
 footer {
     height: 170px;
     width: 1008px;
-    display: table-row;
+    border-width: 3px 0px 0px 0px;
+    border-style: outset;
+    border-top-color: black;
+    padding-top: 15px;
+    margin-top: 30px;
 }
 
 main {
@@ -26,14 +34,16 @@ main {
 
 .leftContent {
     width: 150px;
+    height: 703px;
     float: left;
     min-height: 100%;
-    margin-left: 10px;
     margin-top: 10px;
+    position: relative;
+
 }
 
 .fourth {
-    width: 130px;
+    min-width: 130px;
     min-height: 40%;
     background-color: gray;
     padding-left: 10px;
@@ -41,26 +51,26 @@ main {
 }
 
 .seventh {
-    width: 130px;
-    min-height: 15%;
+    min-width: 150px;
+    min-height: 35%;
     background-color: gray;
-    margin-top: 250px;
     position: absolute;
+    bottom: 0px;
 }
 
 .right {
-    width: 810px;
+    width: 838px;
     float: left;
-    min-height: 700px;
+    min-height: 720px;
     margin-left: 20px;
     margin-top: 10px;
+    position: relative;
 }
 
 .first {
     height: 90px;
     width: 100px;
     background-color: gray;
-    margin-left: 10px;
     margin-top: 6px;
     float: left;
 }
@@ -69,27 +79,30 @@ main {
     height: 90px;
     width: 300px;
     background-color: gray;
-    margin-left: 130px;
+    margin-left: 30px;
     margin-top: 6px;
-    position: absolute;
+    float: left;
 }
 
 .third {
     height: 90px;
     width: 550px;
     background-color: gray;
-    margin-left: 450px;
     margin-top: 6px;
-    position: absolute;
+    float: right;
 }
 
 .fifth {
     background-color: gray;
     min-height: 190px;
-    width: 780px;
+    width: 808px;
     margin-top: 14px;
     margin-left: 15px;
     padding-left: 15px;
+}
+
+.fotoContent {
+
 }
 
 .foto {
@@ -97,14 +110,33 @@ main {
     width: 98px;
     background-color: gray;
     margin-top: 30px;
+    margin-left: 22px;
+    float: left;
+    display: inline-block;
+}
+.foto1 {
+    height: 100px;
+    width: 98px;
+    background-color: gray;
+    margin-top: 30px;
     margin-left: 15px;
     float: left;
+    display: inline-block;
 }
-
+.foto2 {
+    height: 100px;
+    width: 98px;
+    background-color: gray;
+    margin-top: 30px;
+    margin-left: 27px;
+    float: left;
+    display: inline-block;
+}
 .eighth {
     height: 185px;
-    width: 790px;
+    min-width: 790px;
     margin-top: 40px;
+    position: relative;
 }
 
 .xz {
@@ -115,25 +147,48 @@ main {
     margin-left: 10px;
     float: left;
     padding-left: 5px;
+
+}
+
+.xz1 {
+    min-height: 175px;
+    width: 380px;
+    background-color: gray;
+    margin-top: 10px;
+    float: right;
+    padding-left: 5px;
 }
 
 .tenth {
     min-height: 150px;
     width: 280px;
     background-color: gray;
-    margin-top: 10px;
-    margin-left: 20px;
     float: left;
     padding-left: 15px;
 }
 
-.eleven {
-    height: 65px;
+.tenth1 {
+    min-height: 150px;
     width: 280px;
     background-color: gray;
-    margin-top: 10px;
-    margin-left: 20px;
     float: left;
+    padding-left: 15px;
+    margin-left: 60px;
+}
+
+.eleven {
+    height: 65px;
+    width: 300px;
+    background-color: gray;
+    float: right;
+}
+
+.eleven1 {
+    height: 65px;
+    width: 300px;
+    background-color: gray;
+    float: right;
+    margin-top: 20px;
 }
 
 .list {
