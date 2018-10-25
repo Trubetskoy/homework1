@@ -9,27 +9,26 @@ html, body {
 
 header {
     height: 100px;
-    width: 1008px;
     border-bottom: black;
     padding-bottom: 4px;
     border-width: 0px 0px 3px 0px;
     border-style: outset;
+
 }
 
 footer {
-    height: 170px;
-    width: 1008px;
+    min-height: 170px;
     border-width: 3px 0px 0px 0px;
     border-style: outset;
     border-top-color: black;
-    padding-top: 15px;
-    margin-top: 30px;
+    padding-top: 10px;
+    margin-top: 15px;
 }
 
 main {
     width: 1008px;
-    min-height: 720px;
-    margin-top: 15px;
+    height: 705px;
+    margin-top: 5px;
 }
 
 .leftContent {
@@ -43,7 +42,7 @@ main {
 }
 
 .fourth {
-    min-width: 130px;
+    width: 130px;
     min-height: 40%;
     background-color: gray;
     padding-left: 10px;
@@ -51,7 +50,7 @@ main {
 }
 
 .seventh {
-    min-width: 150px;
+    width: 150px;
     min-height: 35%;
     background-color: gray;
     position: absolute;
@@ -101,10 +100,6 @@ main {
     padding-left: 15px;
 }
 
-.fotoContent {
-
-}
-
 .foto {
     height: 100px;
     width: 98px;
@@ -114,6 +109,7 @@ main {
     float: left;
     display: inline-block;
 }
+
 .foto1 {
     height: 100px;
     width: 98px;
@@ -123,6 +119,7 @@ main {
     float: left;
     display: inline-block;
 }
+
 .foto2 {
     height: 100px;
     width: 98px;
@@ -132,9 +129,9 @@ main {
     float: left;
     display: inline-block;
 }
+
 .eighth {
     height: 185px;
-    min-width: 790px;
     margin-top: 40px;
     position: relative;
 }
@@ -144,7 +141,7 @@ main {
     width: 380px;
     background-color: gray;
     margin-top: 10px;
-    margin-left: 10px;
+    margin-left: 15px;
     float: left;
     padding-left: 5px;
 
@@ -203,4 +200,112 @@ ul {
     line-height: 0.7em;
     padding-left: 15px;
     float: left;
+}
+
+@media (max-width: 320px) {
+    html, header, footer, main {
+        width: 310px;
+        margin-top: 0;
+        font-size: 10px;
+    }
+
+    body {
+        margin: auto;
+        width: 310px;
+    }
+
+    footer {
+        padding-top: 5px;
+        margin-top: 5px;
+    }
+
+    .right {
+        margin: 0;
+    }
+
+    .leftContent {
+        width: 50px;
+        margin-top: 0;
+        display: none;
+    }
+
+    .header {
+        height: 310px;
+    }
+
+    .first {
+        width: 50px;
+        margin-left: 5px;
+    }
+
+    .second {
+        width: 85px;
+        margin-left: 5px;
+    }
+
+    .third {
+        width: 160px;
+        margin-left: 5px;
+    }
+
+    .right {
+        width: 310px;
+        margin-left: 0;
+    }
+
+    .fifth {
+        width: 310px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .foto {
+        margin: 7px;
+    }
+
+    .foto1 {
+        margin: 7px;
+    }
+
+    .foto2 {
+        margin: 7px;
+    }
+
+    .eighth {
+        margin: 0;
+        padding: 0;
+        width: 310px;
+    }
+
+    .xz {
+        margin: 0;
+        padding: 0;
+        width: 310px;
+    }
+
+    .xz1 {
+        padding: 0;
+        width: 310px;
+        margin: 5px 0px;
+    }
+
+    .tenth {
+        width: 295px;
+    }
+
+    .tenth1 {
+        width: 305px;
+        padding-left: 5px;
+        margin: 5px 0px;
+    }
+
+    .eleven {
+        width: 310px;
+
+    }
+
+    .eleven1 {
+        width: 310px;
+        margin: 5px 0;
+    }
 }
