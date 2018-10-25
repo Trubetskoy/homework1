@@ -139,7 +139,7 @@ footer {
 
 .contentRightBottom {
     display: flex;
-    min-height: 30%;
+    min-height: 17%;
     margin-top: 10px;
     justify-content: space-between;
 }
@@ -205,6 +205,76 @@ footer {
     min-height: 100%;
 }
 
+.contactsFooter {
+    display: flex;
+    flex-grow: 6;
+    min-height: 90%;
+    background-color: gray;
+    margin-left: 15px;
+}
+
 ul {
     list-style-type: square;
+}
+
+@media (max-width: 758px) {
+    main, header, footer {
+        font-size: 10px;
+    }
+
+    main {
+        margin-top: 5px;
+    }
+
+    .contentLeft {
+        display: none;
+    }
+
+    .contentRight {
+        width: 100%;
+        margin: 0;
+        min-height: 1200px;
+    }
+
+    .photo1 {
+        margin-top: 10px;
+    }
+
+    .photo {
+        margin-top: 10px;
+        margin-left: 0;
+
+    }
+
+    .contentRightMidle {
+        min-height: 650px;
+        margin: 0;
+    }
+
+    .contentRightBottom {
+        height: 17%;
+    }
+
+    footer {
+        margin-top: 30px;
+        flex-direction: column;
+    }
+
+    .list2 {
+        padding: 0;
+    }
+
+    .contactsFooter {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .footerContactNumbers {
+        margin-top: 5px;
+        margin-left: 0;
+    }
+
+    .phone2 {
+        margin-top: 5px;
+    }
 }
