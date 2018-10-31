@@ -308,3 +308,55 @@ ul {
         margin: 5px 0;
     }
 }
+
+@media (max-width: 640px) {
+    body {
+        margin-left: 5px;
+    }
+    main {
+        margin: 0px;
+    }
+
+    .leftContent {
+        display: none;
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
+        width: 640px;
+    }
+
+    header {
+        width: 640px;
+    }
+
+    .first {
+        width: 70px;
+    }
+
+    .second {
+        width: 200px;
+    }
+
+    .third {
+        width: 310px;
+    }
+    .fifth {
+        margin: 0px;
+        width: 630px;
+        padding: 0;
+    }
+    .foto1 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .foto {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .foto2 {
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+}
