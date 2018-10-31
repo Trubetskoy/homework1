@@ -11,14 +11,14 @@ header {
     height: 100px;
     border-bottom: black;
     padding-bottom: 4px;
-    border-width: 0px 0px 3px 0px;
+    border-width: 0 0 3px 0;
     border-style: outset;
 
 }
 
 footer {
     min-height: 170px;
-    border-width: 3px 0px 0px 0px;
+    border-width: 3px 0 0 0;
     border-style: outset;
     border-top-color: black;
     padding-top: 10px;
@@ -54,7 +54,7 @@ main {
     min-height: 35%;
     background-color: gray;
     position: absolute;
-    bottom: 0px;
+    bottom: 0;
 }
 
 .right {
@@ -286,7 +286,7 @@ ul {
     .xz1 {
         padding: 0;
         width: 310px;
-        margin: 5px 0px;
+        margin: 5px 0;
     }
 
     .tenth {
@@ -296,7 +296,7 @@ ul {
     .tenth1 {
         width: 305px;
         padding-left: 5px;
-        margin: 5px 0px;
+        margin: 5px 0;
     }
 
     .eleven {
@@ -309,12 +309,15 @@ ul {
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 800px) {
     body {
         margin-left: 5px;
     }
+
     main {
-        margin: 0px;
+        width: 640px;
+        margin: 0;
+        height: 630px;
     }
 
     .leftContent {
@@ -325,6 +328,7 @@ ul {
         padding: 0;
         margin: 0;
         width: 640px;
+        min-height: 630px;
     }
 
     header {
@@ -342,21 +346,67 @@ ul {
     .third {
         width: 310px;
     }
+
     .fifth {
-        margin: 0px;
+        margin: 0;
         width: 630px;
         padding: 0;
     }
+
     .foto1 {
-        margin-left: 10px;
+        margin-left: 0;
         margin-top: 10px;
     }
+
     .foto {
         margin-left: 10px;
         margin-top: 10px;
     }
+
     .foto2 {
-        margin-left: 10px;
+        margin-left: 0;
         margin-top: 10px;
+        margin-right: 10px;
+    }
+
+    footer {
+        width: 640px;
+        height: 300px;
+    }
+
+    .tenth1 {
+        width: 290px;
+        margin-left: 30px;
+        float: right;
+    }
+    .tenth {
+        width: 290px;
+    }
+
+    .eleven {
+        margin-left: 1px;
+        width: 305px;
+        margin-top: 20px;
+    }
+
+    .eleven1 {
+        width: 305px;
+        float: left;
+    }
+
+    .fifth {
+        width: 640px;
+    }
+
+    .xz {
+        margin-left: 0;
+        width: 300px;
+    }
+
+    .xz1 {
+        width: 300px;
+    }
+    .eighth {
+        margin: 0;
     }
 }
