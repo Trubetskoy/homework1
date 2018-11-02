@@ -202,7 +202,7 @@ ul {
     float: left;
 }
 
-@media (max-width: 319px) {
+@media (max-width: 419px) {
     html, header, footer, main {
         width: 310px;
         margin-top: 0;
@@ -309,7 +309,7 @@ ul {
     }
 }
 
-@media (min-width: 320px)and (max-width: 800px) {
+@media (min-width: 420px)and (max-width: 800px) {
     body {
         margin-left: 5px;
     }
