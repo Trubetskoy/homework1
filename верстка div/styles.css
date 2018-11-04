@@ -202,7 +202,7 @@ ul {
     float: left;
 }
 
-@media (max-width: 319px) {
+@media (max-width: 399px) {
     html, header, footer, main {
         width: 310px;
         margin-top: 0;
@@ -309,9 +309,9 @@ ul {
     }
 }
 
-@media (min-width: 320px)and (max-width: 800px) {
+@media (min-width: 800px)and (max-width: 1008px) {
     body {
-        margin-left: 5px;
+        margin-left: 150px;
     }
 
     main {
@@ -412,3 +412,233 @@ ul {
         margin: 0;
     }
 }
+
+@media (min-width: 400px)and (max-width: 599px) {
+    body {
+        margin-left: 50px;
+    }
+
+    main {
+        width: 400px;
+        margin: 0;
+        height: 630px;
+    }
+
+    .leftContent {
+        display: none;
+    }
+
+    .right {
+        padding: 0;
+        margin: 0;
+        width: 400px;
+        min-height: 630px;
+    }
+
+    header {
+        width: 400px;
+        height: 200px;
+    }
+
+    .second {
+        width: 270px;
+    }
+
+    .third {
+        width: 400px;
+    }
+
+    .fifth {
+        margin: 0;
+        width: 400px;
+        padding: 0;
+    }
+
+    .foto1 {
+        margin-left: 6px;
+        margin-top: 10px;
+        width: 94px;
+    }
+
+    .foto {
+        width: 94px;
+        margin-left: 6px;
+        margin-top: 10px;
+    }
+
+    .foto2 {
+        margin-left: 6px;
+        margin-top: 10px;
+        width: 94px;
+    }
+
+    footer {
+        width: 400px;
+        height: 300px;
+        margin-top: 10px;
+    }
+
+    .tenth1 {
+        width: 400px;
+        margin-left: 30px;
+        float: right;
+        margin-top: 10px;
+        padding: 0;
+    }
+
+    .tenth {
+        width: 400px;
+        padding: 0;
+    }
+
+    .eleven {
+        margin-left: 0px;
+        width: 400px;
+        margin-top: 10px;
+    }
+
+    .eleven1 {
+        width: 400px;
+        float: left;
+        margin-top: 10px;
+    }
+
+    .fifth {
+        width: 400px;
+    }
+
+    .xz {
+        margin-left: 0;
+        width: 400px;
+        padding: 0;
+    }
+
+    .xz1 {
+        width: 400px;
+        padding: 0;
+    }
+
+    .eighth {
+        margin: 0;
+        height: 370px;
+    }
+    li {
+        margin-left: 10px;
+    }
+    @media
+}
+    @media (min-width: 600px)and (max-width: 800px) {
+        body {
+            margin-left: 150px;
+        }
+
+        main {
+            width: 400px;
+            margin: 0;
+            height: 630px;
+        }
+
+        .leftContent {
+            display: none;
+        }
+
+        .right {
+            padding: 0;
+            margin: 0;
+            width: 400px;
+            min-height: 630px;
+        }
+
+        header {
+            width: 400px;
+            height: 200px;
+        }
+
+        .second {
+            width: 270px;
+        }
+
+        .third {
+            width: 400px;
+        }
+
+        .fifth {
+            margin: 0;
+            width: 400px;
+            padding: 0;
+        }
+
+        .foto1 {
+            margin-left: 6px;
+            margin-top: 10px;
+            width: 94px;
+        }
+
+        .foto {
+            width: 94px;
+            margin-left: 6px;
+            margin-top: 10px;
+        }
+
+        .foto2 {
+            margin-left: 6px;
+            margin-top: 10px;
+            width: 94px;
+        }
+
+        footer {
+            width: 400px;
+            height: 300px;
+            margin-top: 10px;
+        }
+
+        .tenth1 {
+            width: 400px;
+            margin-left: 30px;
+            float: right;
+            margin-top: 10px;
+            padding: 0;
+        }
+
+        .tenth {
+            width: 400px;
+            padding: 0;
+        }
+
+        .eleven {
+            margin-left: 0px;
+            width: 400px;
+            margin-top: 10px;
+        }
+
+        .eleven1 {
+            width: 400px;
+            float: left;
+            margin-top: 10px;
+        }
+
+        .fifth {
+            width: 400px;
+        }
+
+        .xz {
+            margin-left: 0;
+            width: 400px;
+            padding: 0;
+        }
+
+        .xz1 {
+            width: 400px;
+            padding: 0;
+        }
+
+        .eighth {
+            margin: 0;
+            height: 370px;
+        }
+        li {
+            margin-left: 10px;
+        }
+        @media
+        }
+
