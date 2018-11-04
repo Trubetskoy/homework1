@@ -1,7 +1,7 @@
 html, body {
     margin: auto;
     display: table;
-    width: 1008px;
+    max-width: 1008px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     line-height: 22px;
@@ -202,7 +202,7 @@ ul {
     float: left;
 }
 
-@media (max-width: 619px) {
+@media (max-width: 667px) {
     html, header, footer, main {
         width: 310px;
         margin-top: 0;
@@ -309,11 +309,7 @@ ul {
     }
 }
 
-@media (min-width: 750px)and (max-width: 980px) {
-    body {
-        margin-left: 150px;
-    }
-
+@media (min-width: 668px)and (max-width: 1027px) {
     main {
         width: 640px;
         margin: 0;
@@ -412,106 +408,4 @@ ul {
         margin: 0;
     }
 }
-@media (min-width: 620px)and (max-width: 749px) {
-    body {
-        margin-left: 10px;
-    }
 
-    main {
-        width: 640px;
-        margin: 0;
-        height: 630px;
-    }
-
-    .leftContent {
-        display: none;
-    }
-
-    .right {
-        padding: 0;
-        margin: 0;
-        width: 640px;
-        min-height: 630px;
-    }
-
-    header {
-        width: 640px;
-    }
-
-    .first {
-        width: 70px;
-    }
-
-    .second {
-        width: 200px;
-    }
-
-    .third {
-        width: 310px;
-    }
-
-    .fifth {
-        margin: 0;
-        width: 630px;
-        padding: 0;
-    }
-
-    .foto1 {
-        margin-left: 0;
-        margin-top: 10px;
-    }
-
-    .foto {
-        margin-left: 10px;
-        margin-top: 10px;
-    }
-
-    .foto2 {
-        margin-left: 0;
-        margin-top: 10px;
-        margin-right: 10px;
-    }
-
-    footer {
-        width: 640px;
-        height: 300px;
-    }
-
-    .tenth1 {
-        width: 290px;
-        margin-left: 30px;
-        float: right;
-    }
-
-    .tenth {
-        width: 290px;
-    }
-
-    .eleven {
-        margin-left: 1px;
-        width: 305px;
-        margin-top: 20px;
-    }
-
-    .eleven1 {
-        width: 305px;
-        float: left;
-    }
-
-    .fifth {
-        width: 640px;
-    }
-
-    .xz {
-        margin-left: 0;
-        width: 300px;
-    }
-
-    .xz1 {
-        width: 300px;
-    }
-
-    .eighth {
-        margin: 0;
-    }
-}
